@@ -10,6 +10,7 @@ import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.flow.debounce
 import kotlinx.coroutines.launch
 
+@Suppress("EXPERIMENTAL_API_USAGE")
 class DebouncedTextChangeListener(
     scope: CoroutineScope,
     timeout: Long = 500L,
